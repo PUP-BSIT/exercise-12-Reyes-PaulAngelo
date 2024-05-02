@@ -17,6 +17,7 @@ function startCounter() {
     stopButton.disabled = false;
   }
 }
+
 function pauseCounter() {
   if (!isTimerStarting) {
     clearInterval(intervalId);
